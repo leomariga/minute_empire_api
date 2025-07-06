@@ -88,7 +88,7 @@ def main():
     try:
         # Login
         print("Logging in...")
-        login_result = client.login("testapi", "testapi123")
+        login_result = client.login("username", "password")
         print(f"Logged in successfully as {login_result['username']}")
 
         # Get user info
